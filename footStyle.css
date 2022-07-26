@@ -1,0 +1,73 @@
+
+img {
+    border: 5px black;
+}
+.emblem {
+    width: 150px;
+    height: 150px;
+    border: 5px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.slogan {
+    display: block;
+    text-align: center ;
+    background: lightgrey;
+    border: 5px solid gray;
+
+}
+
+.info {
+    background: lightgray;
+}
+.line {
+    height: 5px;
+    background-color: darkslateblue;
+}
+html {
+    font-size: 20px;
+    background: url(images/football-wallpaper.jpg);
+    opacity: 100%;               /* прозрачность*/
+}
+
+.line2 {
+    height: 5px;
+    background-color: darkslateblue;
+}
+
+#foot1 {
+border: 2px solid gray;
+    padding: 0px;
+   display: inline-block;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+#foot2 {
+    border: 2px solid gray;
+    margin: 20px;
+    display: inline-block;
+
+}
+#foot3 {
+    border: 2px solid gray;
+    margin-left: 20px;
+    margin-right: 70px;
+    display: inline-block;
+}
+
+#name1 {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+#name2 {
+    margin-left: 170px;
+    display: inline-block;
+}
+#name3 {
+    margin-left: 220px;
+    margin-right: 150px;
+    display: inline-block;
+}
