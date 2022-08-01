@@ -2,6 +2,7 @@
 img {
     border: 5px black;
 }
+
 .emblem {
     width: 150px;
     height: 150px;
@@ -10,9 +11,10 @@ img {
     margin-right: auto;
     display: flex;
 }
+
 .slogan {
     display: block;
-    text-align: center ;
+    text-align: center;
     background: lightgrey;
     border: 5px solid gray;
 
@@ -21,14 +23,16 @@ img {
 .info {
     background: lightgray;
 }
+
 .line {
     height: 5px;
     background-color: darkslateblue;
 }
+
 html {
     font-size: 20px;
     background: url(images/football-wallpaper.jpg);
-    opacity: 100%;               /* прозрачность*/
+    opacity: 100%; /* прозрачность*/
 }
 
 .line2 {
@@ -36,38 +40,41 @@ html {
     background-color: darkslateblue;
 }
 
-#foot1 {
-border: 2px solid gray;
-    padding: 0px;
-   display: inline-block;
-    margin-left: 70px;
-    margin-right: 20px;
+.persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#foot2 {
+img {
     border: 2px solid gray;
-    margin: 20px;
-    display: inline-block;
-
-}
-#foot3 {
-    border: 2px solid gray;
-    margin-left: 20px;
-    margin-right: 70px;
-    display: inline-block;
 }
 
-#name1 {
-    display: inline-block;
-    margin-left: 150px;
-    margin-right: 20px;
+.persons-names {
+    display: flex;
+    justify-content: center;
 }
-#name2 {
-    margin-left: 170px;
-    display: inline-block;
+
+.table   {
+    display: flex;
+    justify-content: center;
+   text-align: center;
 }
-#name3 {
-    margin-left: 220px;
-    margin-right: 150px;
-    display: inline-block;
+#football-season-choice {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    border: 3px darkgray solid;
+    border-style: dashed double;
+}
+select {
+    background-color: gray;
+    border: 5px darkslateblue solid;
+}
+#season2 {
+    display: none;
+}
+#season3 {
+    display: none;
 }
