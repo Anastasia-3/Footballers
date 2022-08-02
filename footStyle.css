@@ -55,8 +55,8 @@ img {
     justify-content: center;
 }
 
-.table   {
-    display: flex;
+#table   {
+    display: none;
     justify-content: center;
    text-align: center;
 }
@@ -72,9 +72,9 @@ select {
     background-color: gray;
     border: 5px darkslateblue solid;
 }
-#season2 {
+.season2 {
     display: none;
 }
-#season3 {
+.season3 {
     display: none;
 }
